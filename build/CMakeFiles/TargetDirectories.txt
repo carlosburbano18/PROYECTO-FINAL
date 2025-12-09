@@ -1,0 +1,9 @@
+/workspaces/PROYECTO-FINAL/build/CMakeFiles/Inventario.dir
+/workspaces/PROYECTO-FINAL/build/CMakeFiles/edit_cache.dir
+/workspaces/PROYECTO-FINAL/build/CMakeFiles/rebuild_cache.dir
+/workspaces/PROYECTO-FINAL/build/CMakeFiles/list_install_components.dir
+/workspaces/PROYECTO-FINAL/build/CMakeFiles/install.dir
+/workspaces/PROYECTO-FINAL/build/CMakeFiles/install/local.dir
+/workspaces/PROYECTO-FINAL/build/CMakeFiles/install/strip.dir
+/workspaces/PROYECTO-FINAL/build/CMakeFiles/Inventario_autogen_timestamp_deps.dir
+/workspaces/PROYECTO-FINAL/build/CMakeFiles/Inventario_autogen.dir
