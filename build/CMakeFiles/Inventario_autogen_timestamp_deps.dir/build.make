@@ -66,11 +66,11 @@ include CMakeFiles/Inventario_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/Inventario_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/Inventario_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
-CMakeFiles/Inventario_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
-CMakeFiles/Inventario_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 CMakeFiles/Inventario_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
+CMakeFiles/Inventario_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 CMakeFiles/Inventario_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Sql.so.6.4.2
+CMakeFiles/Inventario_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+CMakeFiles/Inventario_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 
 Inventario_autogen_timestamp_deps: CMakeFiles/Inventario_autogen_timestamp_deps
 Inventario_autogen_timestamp_deps: CMakeFiles/Inventario_autogen_timestamp_deps.dir/build.make
