@@ -3,7 +3,7 @@
 
 #include <QAbstractTableModel>
 #include <QVector>
-#include "../Database/DatabaseManager.h"
+#include "../DataHub/DBControl.h"
 
 // Modelo de tabla para representar los componentes en la vista
 class ComponentModel : public QAbstractTableModel

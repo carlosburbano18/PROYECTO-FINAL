@@ -1,8 +1,8 @@
 #ifndef INVENTARIO_H
 #define INVENTARIO_H
 
-#include "Database/DatabaseManager.h"
-#include "Models/ComponentModel.h"
+#include "DataHub/DBControl.h"
+#include "model/CompList.h"
 
 #include <QMainWindow>
 #include <QSortFilterProxyModel>

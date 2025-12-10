@@ -1,4 +1,4 @@
-#include "ComponentModel.h"
+#include "CompList.h"
 #include <QColor>
 
 // Constructor del modelo, recibe el gestor de base de datos y el padre opcional

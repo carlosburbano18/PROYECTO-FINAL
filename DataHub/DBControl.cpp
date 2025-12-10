@@ -1,7 +1,11 @@
-#include "DatabaseManager.h"
+#include "DBControl.h"
+#include <QSqlDatabase>
 #include <QSqlQuery>
 #include <QSqlError>
-#include <QDebug>
+#include <QVector>
+#include <QStringList>
+#include <QDate>
+#include <QObject>
 
 // Nombre de la conexión para evitar duplicados en QSqlDatabase
 static const QString CONNECTION_NAME = "main_connection";

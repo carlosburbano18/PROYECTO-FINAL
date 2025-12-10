@@ -1,4 +1,4 @@
-#include "CustomFilterProxyModel.h"
+#include "FiltProxy.h"
 #include <QModelIndex>
 
 // Constructor: inicializa el proxy model, llama al constructor base
@@ -14,13 +14,13 @@ bool CustomFilterProxyModel::filterAcceptsRow(int sourceRow, const QModelIndex &
     QString type = sourceModel()->data(typeIndex).toString();
 
     // Si hay un filtro de texto activo (búsqueda)
-    if (!filterRegExp().pattern().isEmpty()) {
+    if (!filterRegularExpression().pattern().isEmpty()) {
         bool matchesSearch = false;
         // Recorre todas las columnas de la fila
         for (int col = 0; col < sourceModel()->columnCount(); ++col) {
             QModelIndex idx = sourceModel()->index(sourceRow, col, sourceParent);
             // Si alguna columna contiene el texto buscado, acepta la fila
-            if (idx.data().toString().contains(filterRegExp())) {
+            if (idx.data().toString().contains(filterRegularExpression())) {
                 matchesSearch = true;
                 break;
             }

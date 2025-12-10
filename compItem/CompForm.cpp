@@ -1,5 +1,5 @@
-#include "ComponentDialog.h"
-#include "ui_ComponentDialog.h"
+#include "CompForm.h"
+#include "ui_CompForm.h"
 #include <QDebug>
 
 // Constructor del diálogo para añadir/editar componentes

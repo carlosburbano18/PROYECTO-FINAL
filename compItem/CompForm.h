@@ -1,5 +1,5 @@
-#ifndef COMPONENTDIALOG_H
-#define COMPONENTDIALOG_H
+#ifndef COMPFORM_H
+#define COMPFORM_H
 
 #include <QDialog>
 #include <QDate>
